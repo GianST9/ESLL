@@ -1,0 +1,14 @@
+
+__pycache__/
+
+.vscode/
+
+.html
+
+.env
+
+# ignore build artifacts and distributions
+build/
+dist/
+
+data_cache.parquet

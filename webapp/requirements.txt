@@ -1,0 +1,9 @@
+dash
+pandas
+numpy
+plotly
+gunicorn
+python-dotenv
+pyodbc
+requests
+fastparquet
