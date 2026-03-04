@@ -77,9 +77,9 @@ def get_db_connection():
     server='scn-sql-prd'
     port='1433'
     database = 'Marktpreise'
-    username='saleski'
-    password='saleski'
-
+    username='' ## TODO: ADD CREDENTIALS HERE
+    password='' ## TODO: ADD CREDENTIALS HERE
+    
     conn_str = (
         f'DRIVER={{SQL Server}};'
         f'SERVER={server},{port};'

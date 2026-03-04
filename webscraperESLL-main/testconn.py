@@ -5,8 +5,8 @@ def run_query():
         "DRIVER={SQL Server};"
         "SERVER=scn-sql-prd,1433;"
         "DATABASE=Marktpreise;"
-        "UID=saleski;"
-        "PWD=saleski;"
+        "UID="
+        "PWD=;"
     )
 
     conn = pyodbc.connect(conn_str)
