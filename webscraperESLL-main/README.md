@@ -73,7 +73,7 @@ Also either Chrome or its binaries are needed to run the program
 1. **Install Python 3.12 or higher**
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/GianST9/webscraperESSL.git
+   git clone https://github.com/GianST9/ESLL.git
    cd energy-tariff-scraper
    ```
 3. **Install the required packages:**
