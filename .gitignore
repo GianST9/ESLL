@@ -1,0 +1,13 @@
+# ignore Python cache and environments
+__pycache__/
+*.pyc
+
+# ignore build artifacts
+webapp/build/
+webapp/dist/
+
+# ignore data caches
+webapp/data_cache.parquet
+
+# local editor configs
+.vscode/

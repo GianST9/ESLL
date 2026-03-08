@@ -7,3 +7,4 @@ python-dotenv
 pyodbc
 requests
 fastparquet
+flask
