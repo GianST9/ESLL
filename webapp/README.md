@@ -61,8 +61,8 @@ To run the web application:
 ```
 python app.py
 ```
-
-The app will start a local server (default port 8050). Open a web browser and navigate to `http://127.0.0.1:8050/`.
+ 
+The app will start a local server (default port 8050). Should open on its own, else open a web browser and navigate to `http://127.0.0.1:8050/`.
 
 ### Using the Dashboard
 
@@ -71,6 +71,7 @@ The app will start a local server (default port 8050). Open a web browser and na
 3. Switch between Graph View, Table View, and Weekly Pivot Table using the tabs.
 4. Click "Refresh Data" to fetch the latest data from the database.
 5. Use the "Shutdown App here!" button to stop the application.
+   (NOTE: Shutdown stops the process but not the Browser-Tab)
 
 ### Building the Executable
 
@@ -92,10 +93,9 @@ Data is cached in `data_cache.parquet` for performance.
 
 ## Notes
 
-- Ensure SQL Server is accessible and credentials are correct.
+- Ensure SQL Server is accessible and credentials are correct. (Here: Server is accessible without credentials)
 - The app uses `pyodbc` for database connections; ensure the SQL Server driver is installed.
-- For production deployment, consider using a WSGI server like Gunicorn.
-- The shutdown functionality is intended for development/testing; remove or secure in production.
+- App is meant to be deployed locally on machines with VPN access. 
 
 ## License
 
