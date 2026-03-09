@@ -28,6 +28,7 @@ A Dash-based web application for visualizing and analyzing market prices (Marktp
   - requests
   - fastparquet
   - flask
+  - pyinstaller
 
 ## Installation
 
