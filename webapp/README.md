@@ -74,12 +74,11 @@ The app will start a local server (default port 8050). Open a web browser and na
 
 ### Building the Executable
 
-The app can be packaged into a standalone executable using PyInstaller. A spec file `Dash_MP.spec` is provided.
-
+The app can be packaged into a standalone executable using PyInstaller. 
 To build:
 
 ```
-pyinstaller Dash_MP.spec
+python -m PyInstaller --name Dash_MP --onefile --noconsole --add-data "data_cache.parquet;." --add-data "assets;assets" --hidden-import pyodbc --hidden-import pandas --hidden-import plotly --hidden-import dash_table app.py
 ```
 
 The executable will be created in the `build/Dash_MP/` directory.
